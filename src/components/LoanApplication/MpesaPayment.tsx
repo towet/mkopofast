@@ -9,7 +9,7 @@ interface MpesaPaymentProps {
   loanAmount: number;
 }
 
-const MPESA_TILL_NUMBER = "4985580";
+const MPESA_TILL_NUMBER = "5547234";
 
 const MpesaPayment: React.FC<MpesaPaymentProps> = ({ onNext, onBack, amount, loanAmount }) => {
   const [step, setStep] = useState<'instructions' | 'verification'>('instructions');
